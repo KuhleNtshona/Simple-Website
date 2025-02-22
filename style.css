@@ -1,0 +1,55 @@
+/* Basic reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(237, 228, 237);
+    color: #333;
+    line-height: 1.6;
+
+}
+
+header {
+    background-color: #0b0b0b;
+    color: rgb(228, 232, 228);
+    padding: 1rem;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+button {
+    background-color: #131514;
+    color: rgb(211, 219, 211);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer; 
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #d6dbd6
+}
+
+footer {
+    background-color:#333;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
